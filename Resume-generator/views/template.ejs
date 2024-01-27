@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=username%>'s resume</title>
+    <%- include("includes/templatestyle.ejs") %>
+</head>
+<body>
+    <%=console.log(data[Object.keys(data)[val]])%>
+    <div class="cards">
+        <div class="card">
+            <div id="name"><b>NAME:</b><%=data[Object.keys(data)[val]].name%></div>
+            <div id="roll"><b>ROLL:</b><%=data[Object.keys(data)[val]].roll %></div>
+            <div id="batch"><b>BATCH:</b><%= data[Object.keys(data)[val]].batch %></div>
+            <div id="mobile"><b>MOBILE:</b><%= data[Object.keys(data)[val]].mobile %></div>
+            <div id="email"><b>E-MAIL:</b><%= data[Object.keys(data)[val]].email %></div>
+        </div>
+            <div id="education" class="card"><b>EDUCATION:</b>
+            <div id="tenth">TENTH:<%= data[Object.keys(data)[val]].education.tenth %></div>
+            <div id="twelth">TWELTH:<%= data[Object.keys(data)[val]].education.twelth %></div>
+            <div id="UG">UG:<%= data[Object.keys(data)[val]].education.UG %></div>
+        </div>
+        <div id="experience" class="card"><b>EXPERIENCE:</b>
+            <div id="internship">INTERNSHIP:<%= data[Object.keys(data)[val]].experience.internship %></div>
+            <div id="jobexp">JOB-EXP:<%= data[Object.keys(data)[val]].experience.jobexp %></div>
+        </div>
+    </div>
+</body>
+</html>

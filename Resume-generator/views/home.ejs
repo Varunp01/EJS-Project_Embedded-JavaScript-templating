@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+    <h1>WELCOME TO THE RESUME TEMPLATE BUILDER</h1>
+    <h3>We are currently having resume of <%= Object.keys(data).length %> people:</h3>
+    <ol>
+        <%for(let per of Object.keys(data)){%>
+            <li><%= per %></li>
+        <%}%>
+    </ol>
+    <hr>
+    <p>Use the following method to get the resume of above people:
+        <br>go to the address bar of this page and write the following in place of present url
+        <br><b>http://localhost:<%= port %>/username</b>
+        <br>replace username with the name of person.
+    </p>
+</body>
+</html>

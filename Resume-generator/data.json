@@ -1,0 +1,66 @@
+{
+    "Varun":{
+        "name": "Varun",
+        "roll": "2000520000063",
+        "batch": "Civil",
+        "mobile": "+91xxxxxxxxxx",
+        "email": "varun@somemail.com",
+        "education": {
+            "tenth": "100%",
+            "twelth": "100%",
+            "UG": "100%"
+        },
+        "experience": {
+            "internship": "CPWD",
+            "jobexp": "fresher"
+        }
+    },
+    "Arun":{
+        "name": "Arun",
+        "roll": "2000520000021",
+        "batch": "Civil",
+        "mobile": "+91xxxxxxxxxx",
+        "email": "arun@somemail.com",
+        "education": {
+            "tenth": "100%",
+            "twelth": "100%",
+            "UG": "100%"
+        },
+        "experience": {
+            "internship": "CPWD",
+            "jobexp": "fresher"
+        }
+    },
+    "Tarun":{
+        "name": "Tarun",
+        "roll": "2000520000003",
+        "batch": "Civil",
+        "mobile": "+91xxxxxxxxxx",
+        "email": "tarun@somemail.com",
+        "education": {
+            "tenth": "100%",
+            "twelth": "100%",
+            "UG": "100%"
+        },
+        "experience": {
+            "internship": "CPWD",
+            "jobexp": "fresher"
+        }
+    },
+    "Karun":{
+        "name": "Tarun",
+        "roll": "2000520000003",
+        "batch": "Civil",
+        "mobile": "+91xxxxxxxxxx",
+        "email": "tarun@somemail.com",
+        "education": {
+            "tenth": "100%",
+            "twelth": "100%",
+            "UG": "100%"
+        },
+        "experience": {
+            "internship": "CPWD",
+            "jobexp": "fresher"
+        }
+    }
+}
